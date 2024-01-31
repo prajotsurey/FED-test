@@ -14,7 +14,6 @@ const fieldMap = {
 };
 
 const CustomForm = () => {
-  const handleSubmit = () => {};
   const formFields = useSelector((state) => state.formCreator.inputs);
   return (
     <div>
@@ -27,7 +26,6 @@ const CustomForm = () => {
           }
           return <></>;
         })}
-        <button type="submit">Submit Form</button>
       </form>
     </div>
   );
