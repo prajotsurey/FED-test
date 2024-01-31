@@ -18,7 +18,7 @@ const CustomForm = () => {
   return (
     <div>
       <h2>Form Preview</h2>
-      <form onSubmit={handleSubmit} className="outputForm">
+      <form className="outputForm">
         {formFields.map((field) => {
           const Field = fieldMap[field.type];
           if (Field) {
